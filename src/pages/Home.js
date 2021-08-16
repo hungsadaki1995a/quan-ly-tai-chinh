@@ -8,8 +8,8 @@ function Home() {
         return (
                 <div className="home-container">
                         <div className="background-wrapper">
-                                <h2 className="font-weight-bold">My Finance</h2>
-                                <img src={money} alt="money background" className="home-background"></img>
+                                <h2 className="home-title">My Finance</h2>
+                                <img src={money} alt="money background" className="home-background mt-4"></img>
                         </div>
                         <div className="mt-4">
                                 <div>Ứng dụng quản lý tài chính hiệu quả</div>
