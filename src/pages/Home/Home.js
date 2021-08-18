@@ -11,6 +11,10 @@ function Home() {
         function navigateLogin() {
                 history.push("/login");
         }
+
+        function navigateSignup() {
+                history.push("register")
+        }
         
         return (
                 <div className="home-container">
@@ -21,7 +25,7 @@ function Home() {
                         <div className="mt-4">
                                 <div>Ứng dụng quản lý tài chính hiệu quả</div>
                                 <Button className="w-100 mt-4" onClick={navigateLogin}>Đăng nhập</Button>
-                                <Button variant="outline-secondary" className="w-100 mt-3">Đăng ký</Button>
+                                <Button variant="outline-secondary" className="w-100 mt-3" onClick={navigateSignup}>Đăng ký</Button>
                         </div>
                 </div>
         )
